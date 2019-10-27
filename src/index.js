@@ -1,13 +1,18 @@
 import { GraphQLServer } from 'graphql-yoga'
+import db from './db'
 import Query from './resolvers/Query'
+import Mutation from './resolvers/Mutation'
 
 const resolvers = {
-    Query
+    Query, Mutation
 }
 
 const server = new GraphQLServer({
-    typeDefs: './schema.graphql', 
-    resolvers
+    typeDefs: './src/schema.graphql', 
+    resolvers,
+    context: {
+        db
+    }
 })
 
 server.start({

@@ -1,3 +1,8 @@
 type Query {
     hello(name: String): String
+    searchHello: [String]
+}
+
+type Mutation {
+    addHello(name: String!): String!
 }
