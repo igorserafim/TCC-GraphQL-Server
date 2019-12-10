@@ -4,6 +4,15 @@ const Query = {
     },
     searchHello(parent, args, { db }, info) {
         return db.ahellos
+    },
+    allProntuario(parent, args, { db }, info) {
+        return db.prontuarios
+    },
+    allPaciente(parent, args, { db }, info) {
+        return db.paciente
+    },
+    allEvolucao(parent, args, { db }, info) {
+        return db.evolucao
     }
 }
 
