@@ -2,15 +2,24 @@
     "id": "5f386e71-e078-44ad-90c4-c946a35f5bbf",
     "dataentrada": "2019-10-20",
     "peso": 85,
-    "sintomas": "Dor de cabeça e mal estar"
+    "sintomas": "Dor de cabeça e mal estar",
+    "paciente": "a59c806c-6542-4ba7-a86d-f989e9627cb8"
 }, {
     "id": "5fe44c38-f585-4619-b52d-b39ae158a95c",
     "dataentrada": "2019-11-23",
     "peso": 90,
-    "sintomas": "Dor de garganta e tontura"
+    "sintomas": "Dor de garganta e tontura",
+    "paciente": "183570fd-ab17-4320-b4f5-ca105128860f"
 }, {
     "id": "29fc5eef-d320-455b-9603-572add19a9b5",
     "dataentrada": "2019-08-02",
     "peso": 90,
-    "sintomas": "Vômito"
+    "sintomas": "Vômito",
+    "paciente": "a59c806c-6542-4ba7-a86d-f989e9627cb8"
+}, {
+    "id": "29fc5gg5-a340-475c-8940-072rel19p8b5",
+    "dataentrada": "2018-08-20",
+    "peso": 120,
+    "sintomas": "Dor de barriga",
+    "paciente": "02f40451-04b5-4155-80ad-6b4a7f86a743"
 }]

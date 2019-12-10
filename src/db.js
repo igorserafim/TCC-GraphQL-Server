@@ -3,8 +3,4 @@ const evolucao = require('./db/evolucao.json')
 const paciente = require('./db/paciente.json')
 const db = { prontuarios, evolucao, paciente }
 
-// const db = {
-//     ahellos: []
-// }
-
 export { db as default }
