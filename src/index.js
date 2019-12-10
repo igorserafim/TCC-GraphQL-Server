@@ -3,9 +3,10 @@ import db from './db'
 import Query from './resolvers/Query'
 import Mutation from './resolvers/Mutation'
 import Subscription from './resolvers/Subscription'
+import Prontuario from './resolvers/Prontuario'
 
 const resolvers = {
-    Query, Mutation, Subscription
+    Query, Mutation, Subscription, Prontuario
 }
 
 const pubsub = new PubSub()
