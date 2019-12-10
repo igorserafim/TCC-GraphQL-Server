@@ -1,0 +1,16 @@
+[{
+    "id": "a59c806c-6542-4ba7-a86d-f989e9627cb8",
+    "nome": "Carlos Rodolfo",
+    "datanascimento": "1996-10-10",
+    "tiposanguineo": "O+"
+}, {
+    "id": "183570fd-ab17-4320-b4f5-ca105128860f",
+    "nome": "Miguel Santos",
+    "datanascimento": "1987-09-01",
+    "tiposanguineo": "A-"
+}, {
+    "id": "02f40451-04b5-4155-80ad-6b4a7f86a743",
+    "nome": "Maria Aparecida",
+    "datanascimento": "2000-03-22",
+    "tiposanguineo": "B-"
+}]
