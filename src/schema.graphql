@@ -1,15 +1,26 @@
 type Query {
-    hello(name: String): String
-    searchHello: [String]
     allProntuario: [Prontuario]
+    allPaciente: [Paciente]
+    allEvolucao: [Evolucao]
+    searchProntuario(id: String!): Prontuario!
 }
 
 type Mutation {
     addHello(name: String!): String!
+    addProntuario(data: createProntuarioInput): Prontuario!
 }
 
 type Subscription {
     listenAddHello: String!
+    listenAddProntuario: Prontuario!
+}
+
+input createProntuarioInput {
+    id: ID!
+    dataentrada: String!
+    peso: Int!
+    sintomas: String!
+    paciente: ID!
 }
 
 type Prontuario {
@@ -18,7 +29,7 @@ type Prontuario {
     peso: Int!
     sintomas: String!
     paciente: Paciente!
-    evolucao: [Evolucao!]
+    evolucao: [Evolucao]
 }
 
 type Paciente {
